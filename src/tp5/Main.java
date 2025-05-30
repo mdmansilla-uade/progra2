@@ -256,7 +256,7 @@ public class Main {
         while (!actual.hijoDer().arbolVacio()) {
             actual = actual.hijoDer();
         }
-        resultado[1] = actual.raiz(); // mayor
+        resultado[1] = actual.raiz();
 
         return resultado;
     }
